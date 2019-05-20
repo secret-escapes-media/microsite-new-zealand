@@ -1,1 +1,12 @@
 // general styles for the project that wouldn't be a reuseable component
+
+
+.stop {
+
+  &__title {
+    text-align: center;
+    max-width: $xxl;
+    margin: auto;
+    padding-top: $s8;
+  }
+}

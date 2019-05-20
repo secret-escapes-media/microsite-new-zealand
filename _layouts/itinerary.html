@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="vpad--xxl bg--white">
+  <div class="container container--xxl text--center">
+    {{page.intro}}
+  </div>
+</div>
+
+<div class="vpad--xxl bg--grey-lightest">
+  <div class="container">
+    {% assign stops = site.data.stops %}
+    {% for stop in page.itinerary %}
+
+      <div class="stop">
+        {% assign stop-data = stops | where: 'id', stop.id %}
+        {% for stop in stop-data %}
+          <div class="stop__title">
+            <h2 class="title title--xl text--bolder">{{stop.title}}</h2>
+            <div class="space--sm"></div>
+            <p class="text--xl">{{stop.content}}</p>
+          </div>
+        {% endfor %}
+        {% unless forloop.last %}
+        <hr class="hr--center">
+        {% endunless %}
+      </div>
+
+    {% endfor %}
+  </div>
+</div>
+

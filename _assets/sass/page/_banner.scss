@@ -10,7 +10,7 @@
   min-height: 450px;
   max-height: 700px;
   color: $white;
-  background-color: $grey;
+  background-color: $black;
   @include bp($lg){
     height: 90%;
     min-height: 650px;
@@ -58,5 +58,12 @@
       top: 0;
       bottom: auto;
     }
+  }
+
+
+
+  // ITINERARY BANNER
+  &--itinerary {
+    & .banner__bg { opacity: 0.5; }
   }
 }
