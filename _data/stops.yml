@@ -3,77 +3,72 @@
 
 - id: auckland
   title: Auckland
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  content: New Zealand's sprawling super-city, Auckland is a true melting pot of cultures. A large Polynesian and Asian population sets the tone for one fantastic dining scene, with delicious fusion restaurants to discover and buzzing foodie markets to explore. The harbourside offers sunset cocktails after boutique shopping in Britomart, with more designer stores in Ponsonby and Parnell ready to empty your coffers. Don’t miss the opportunity to escape the city by ferry, destination Waiheke Island. The journey is short but the experience a total contrast. Beautiful beaches mark an island filled with vineyards and restaurants, making for an unmissable day trip.
 
 
 - id: rotorua
   title: Rotorua
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  content: This charming town is a perfect base for unique cultural encounters and peculiar outdoor experiences. Head for Mitai Maori Village to glimpse war canoes gliding down rivers and bite into traditionally-prepared hangi. Further Maori experiences can be had Te Puia, where geysers rumble and myths and legends abound. Thermal pools and waterfalls, hot springs and technicolour sulphur lakes make for beguiling scenes and unique spa opportunities, for a truly relaxing escape.
 
 
 - id: coromandel
   title: Coromandel Peninsula
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  content: This former gold rush town, lined with heritage-filled buildings, sits rather resplendent on its eponymous lake. Quaint through and through, ramshackle cafes and artsy shops while away afternoons; but the true charm of this town is its position as a gateway to the wider peninsula. Discover the beauty spot Cathedral Cove, or dig your own thermal pool at Hot Water Beach. Further afield, mountainous hikes in the Pinnacles await, with more spectacular trails crossing beguiling spots like the Karangahake Gorge.
 
 
 - id: napier
   title: Napier
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  content: Escape the city and head to this gorgeous seaside marvel. Napier is an art-deco jewel, studded onto the eastern coastline of North Island. After an earthquake flattened the town in the thirties, it was rebuilt with all the glamour and style that art deco affords, now offering some of New Zealand’s best restaurants amongst this fine backdrop. The surrounding area is a treasure for discovering esteemed vineyards, rubbing shoulders with beguiling outdoor scenes that the Hawke’s Bay area is so well known for.
 
 
 - id: wellington
   title: Wellington
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.
 
 
 - id: picton
   title: Picton
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  content:
 
 
 - id: christchurch
   title: Christchurch
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  content: Following a devastating earthquake in 2011, Christchurch has proven itself a city of boundless energy and remarkable renewal. There’s a palpable grassroots, community-focussed atmosphere, where the gaps left by fallen buildings are filled with green spaces, pop-up events and art installations. This unique landscape, still imbued with European heritage and plenty of green walkways, is thriving; shops, cafes, bars and restaurants are brimming with locals and visitors alike, with one of the most welcoming atmospheres you can find.
 
 
 - id: dunedin
   title: Dunedin
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  content:
 
 
 - id: lake-tekapo
   title: Lake Tekapo
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-
-- id: picton
-  title: Picton
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  content:
 
 
 - id: omarama
   title: Omarama
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  content:
 
 
 - id: te-anau
   title: Te Anau
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  content:
 
 
 - id: queenstown
   title: Queenstown
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  content: New Zealand’s premiere adventure destination is a playground of thrills. Known as the home of bungee jumping, there’s plenty of adrenaline-junkie activities to throw yourself into; skydiving, canyon swinging, river rafting and skiing to name just a few. But if near-death experiences aren’t your thing, fear not. Day trips to the breathtaking landscapes of Fiordland and Milford Sound offer more relaxed excursions with vineyards to visit en route. Back on the shores of pretty Lake Wanaka, the town is buzzing with friendly locals and a diverse host of bars and restaurants.
 
 
 - id: franz-josef
   title: Franz Josef
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  content: The small town of Franz Josef is the gateway to the beguiling glacier landscape that bears its name. The vast glacier itself is only accessible by helicopter, of which there are plenty in the town, departing regularly and offering incredible panorama. Tours also land on the glacier itself, with a chance to explore caves and crevasses on intrepid hikes. After exploring the glacier, don’t miss the thermal pools close to town for a spot of relaxation...
 
 
 - id: bali
   title: Bali
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  content: To ease the blues of leaving New Zealand, a stop-off in Bali makes the perfect antidote. The iconic exotic beach escape, Bali is a veritable paradise, set with white-sand beaches and crystal-clear, warm waters. Luxury is a given at the island’s renowned resorts, with a vibrant culture to explore outside of the comfort of your hotel.
 
 
 

@@ -1,0 +1,18 @@
+
+<div class="page-nav js-sticky-nav">
+  <div class="page-nav__scroll-wrap">
+    <div class="page-nav__wrap">
+
+      {% assign stops = site.data.stops %}
+      {% for stop in page.itinerary %}
+        {% assign stop-data = stops | where: 'id', stop.id %}
+        {% for stop in stop-data %}
+          <span class="page-nav__item">
+            <a class="page-nav__link" href="#section-{{stop.id}}">{{stop.title}}</a>
+          </span>
+        {% endfor %}
+      {% endfor %}
+
+    </div>
+  </div>
+</div>

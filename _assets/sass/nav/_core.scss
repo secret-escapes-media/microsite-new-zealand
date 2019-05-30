@@ -113,9 +113,8 @@ $logo-bp: 600px;
     &-link {
       display: inline-block;
       padding: $s-1 $s-4;
-      text-transform: uppercase;
-      font-weight: 700;
-      font-size: $s-1;
+      font-weight: 600;
+      font-size: 14px;
       line-height: 0;
       @include transition;
       &:hover,

@@ -7,9 +7,9 @@
   &--grey-lighter  { background-color: $grey-lighter; }
   &--grey-light    { background-color: $grey-light; }
   &--grey          { background-color: $grey; }
-  &--dark          { background-color: $grey-dark; }
-  &--darker        { background-color: $grey-darker; }
-  &--darkest       { background-color: $grey-darkest; }
+  &--grey-dark          { background-color: $grey-dark; }
+  &--grey-darker        { background-color: $grey-darker; }
+  &--grey-darkest       { background-color: $grey-darkest; }
   &--img   { @include background-attributes; }
   &__fixed {
     position: fixed;

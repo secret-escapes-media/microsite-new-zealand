@@ -2,7 +2,7 @@
   <div class="site-header__offset"></div>
   <div class="banner__bg" style="background-image: url('{{site.img}}/content/{{page.id}}/banner.jpg')"></div>
   <div class="banner__wrap">
-    <div class="container container--no-padding text--center">
+    <div class="container container--no-padding">
 
       {% if page.banner.content %}
         {{page.banner.content | liquify}}
@@ -13,9 +13,9 @@
       {% endif %}
 
       {% if page.banner.itinerary-details %}
-        <div class="vpad--sm">
+        <div class="vpad--sm title title--xxs">
         {% for detail in page.banner.itinerary-details %}
-          <span class="title title--xxxs text--medium text--upper">{{detail.text}}</span>
+          <span class="text--medium">{{detail.text}}</span>
           {% unless forloop.last %} | {% endunless %}
         {% endfor %}
         </div>

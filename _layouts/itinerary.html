@@ -2,32 +2,132 @@
 layout: default
 ---
 
-<div class="vpad--xxl bg--white">
+<div class="page-intro">
   <div class="container container--xxl text--center">
     {{page.intro}}
   </div>
-</div>
-
-<div class="vpad--xxl bg--grey-lightest">
-  <div class="container">
-    {% assign stops = site.data.stops %}
-    {% for stop in page.itinerary %}
-
-      <div class="stop">
-        {% assign stop-data = stops | where: 'id', stop.id %}
-        {% for stop in stop-data %}
-          <div class="stop__title">
-            <h2 class="title title--xl text--bolder">{{stop.title}}</h2>
-            <div class="space--sm"></div>
-            <p class="text--xl">{{stop.content}}</p>
-          </div>
-        {% endfor %}
-        {% unless forloop.last %}
-        <hr class="hr--center">
-        {% endunless %}
-      </div>
-
-    {% endfor %}
+  <div class="page-intro__nav">
+    {% include nav/page-nav.html %}
   </div>
 </div>
+
+<div class="bg--grey-lightest">
+
+  {% assign stops = site.data.stops %}
+  {% for stop in page.itinerary %}
+
+  <div id="section-{{stop.id}}"></div>
+  <div class="stop">
+    <div class="container">
+
+      {% assign stop-data = stops | where: 'id', stop.id %}
+      {% for stop in stop-data %}
+      <h2 class="title title--xxxl text--bolder">{{stop.title}}</h2>
+      <div class="space--lg"></div>
+      <div class="row row--6-6">
+        <div class="col">
+          <div class="stop__title">
+            <div class="stop__title-content">
+              <p class="text--xl">{{stop.content}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="bg-img bg-img--3-2" style="background-image: url({{site.img}}/content/stops/{{stop.id}}.jpg)"></div>
+        </div>
+      </div>
+      {% endfor %}
+
+      <div class="space--lg"></div>
+      <div class="row row--6-6">
+        <!-- Stay -->
+        <div class="col">
+          <div class="stop__feature">
+            <h4 class="stop__feature-title title title--xs text--upper text--bold">Stay</h4>
+            {% assign hotel = stop.hotel %}
+            <div class="row row--6-6 row--no-gutters row--valign-center bg--white">
+              <div class="col">
+                <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/hotels/{{hotel.id}}.jpg)"></div>
+              </div>
+              <div class="col">
+                <div class="bg--white boxpad--lg">
+                  <h4 class="title title--xxs text--bold">{{hotel.name}}</h4>
+                  <span class="title text--sm text--upper text--bold text--wide-kern">{{hotel.stay}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Do -->
+        <div class="col">
+          <div class="stop__feature">
+            <h4 class="stop__feature-title title title--xs text--upper text--bold">Don't miss</h4>
+
+            {% assign activity = stop.activity %}
+            <div class="row row--6-6 row--no-gutters row--valign-center bg--white">
+              <div class="col">
+                <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/activities/{{activity.id}}.jpg)"></div>
+              </div>
+              <div class="col">
+                <div class="bg--white boxpad--lg">
+                  <h4 class="title title--xxs text--bold">{{activity.title}}</h4>
+                  <span class="title text--sm text--upper text--bold text--wide-kern">{{activity.location}}</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stop__bg" style="background-image: url({{site.img}}/content/{{page.id}}/banner.jpg)"></div>
+  </div>
+
+  {% endfor %}
+</div>
+
+
+
+<div class="bg--grey-darkest vpad--lg text--white">
+  {% assign sale = page.sale %}
+  <div class="container">
+
+    <div class="text--center">
+      <h3 class="title title--sm text--medium">Featured sale:</h3>
+      <div class="space--sm"></div>
+    </div>
+
+    <div class="row row--valign-center row--no-gutters bg--grey-darker">
+      <div class="col col--8">
+        <div class="row row--no-gutters">
+          <div class="col col--4">
+            <div class="bg-img bg-img--3-4" style="background-image: url({{site.img}}/content/{{page.id}}/sale/01.jpg)"></div>
+          </div>
+          <div class="col col--4">
+            <div class="bg-img bg-img--3-4" style="background-image: url({{site.img}}/content/{{page.id}}/sale/02.jpg)"></div>
+          </div>
+          <div class="col col--4">
+            <div class="bg-img bg-img--3-4" style="background-image: url({{site.img}}/content/{{page.id}}/sale/03.jpg)"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col col--4">
+        <div class="boxpad--xl">
+          <h4 class="title--xxs text--bold">{{sale.title}}</h4>
+          <ul>
+            {% for item in sale.list %}
+              <li>{{item.item}}</li>
+            {% endfor %}
+          </ul>
+          <p>From <span class="text--xxl">£{{sale.price}}</span> {{sale.price-description}}</p>
+          <div class="space--sm"></div>
+          <a href="#" class="btn btn--orange">View sale</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 

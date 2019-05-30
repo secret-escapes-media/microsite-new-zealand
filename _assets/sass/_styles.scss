@@ -1,12 +1,74 @@
 // general styles for the project that wouldn't be a reuseable component
 
 
+.page-intro {
+  position: relative;
+  padding-top: $s8;
+  padding-bottom: $s11;
+  &__nav {
+    border-top: 1px solid rgba($grey-darkest,0.2);
+    height: 58px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+
+
 .stop {
+  padding-bottom: $s10;
+  padding-top: $s10;
+  position: relative;
+  &:nth-child(even){ background-color: $grey-lighter; }
+  & .container { position: relative; z-index: 1; }
 
   &__title {
-    text-align: center;
-    max-width: $xxl;
-    margin: auto;
-    padding-top: $s8;
+    background-color: $white;
+    position: relative;
+    text-align: left;
+    &:before {
+      content: "";
+      padding-top: 66.666666666667%;
+      display: block;
+    }
+    &-content {
+      padding: $s4;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: $z-content-upper;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      @include page-padding;
+    }
+  }
+
+  &__feature {
+    // background-color: $white;
+    overflow: hidden;
+    position: relative;
+    &-title {
+      padding-bottom: $s0;
+    }
+  }
+
+  &__bg {
+    position: absolute;
+    height: 100%; width: 100%;
+    top: 0; left: 0;
+    z-index: 0;
+    @include background-attributes;
+    background-attachment: fixed;
+    &:before {
+      content: "";
+      position: absolute;
+      top:0;bottom:0;left:0;right:0;
+      background-color: rgba($white,0.8);
+    }
   }
 }

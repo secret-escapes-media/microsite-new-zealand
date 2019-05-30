@@ -5,6 +5,9 @@ nav: true
 nav-order: 1
 title: Overview
 
+banner:
+  title: Kia ora
+
 intro: >
   <p class="text--xxl">Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus.</p>
 
@@ -14,9 +17,7 @@ intro: >
   <div class="container container--xl text--center">
     {{page.intro}}
   </div>
-</div>
-
-<div class="vpad--xxl bg--grey-lightest">
+  
   <div class="container">
     <div class="row row--4-4-4">
       {% assign grouppages = site.html_pages | where: 'content-pages','true' | sort: 'nav-order' %}

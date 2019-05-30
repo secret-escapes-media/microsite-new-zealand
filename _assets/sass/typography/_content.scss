@@ -16,8 +16,8 @@ a[href]:not([class]) {
 }
 
 li {
-  list-style-position:
-  outside; margin-left: $s1;
+  list-style-position: outside;
+  margin-left: $s1;
 }
 ul li   { list-style-type: disc; }
 ol li   { list-style-type: decimal; }

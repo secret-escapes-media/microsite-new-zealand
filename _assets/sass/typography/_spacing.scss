@@ -4,10 +4,10 @@
   * + p,
   * + ul,
   * + ol  { padding-top: $s-1; }
-  li + li { padding-top: $s-3; }
+  li + li { padding-top: $s-5; }
 
   ul,
-  ol { padding-top: $s2; padding-bottom: $s-2; }
+  ol { }
 
   // specific spacing for all titles, these should be adjusted once typefaces & content are added
   p + .title { padding-top: $s5; }

@@ -36,6 +36,7 @@
     z-index: $z-content;
     background-color: $grey-dark;
     @include background-attributes;
+    background-attachment: fixed;
     // &:before {
     //   // optional colour overlay on bg image
     //   content: '';
