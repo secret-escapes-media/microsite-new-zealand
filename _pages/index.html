@@ -6,32 +6,48 @@ nav-order: 1
 title: Overview
 
 banner:
-  title: Kia ora
+  title-sup: Escape to a land of legend.
+  title: Discover <br />New Zealand
 
 intro: >
-  <p class="text--xxl">Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus.</p>
+  <p class="text--xxl">Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla.</p>
+  <p class="text--xxl">Vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 
 ---
 
-<div class="vpad--xxl bg--white">
-  <div class="container container--xl text--center">
+<div class="page-intro page-intro--fade">
+  <div class="container container--xxl text--center">
     {{page.intro}}
   </div>
-  
-  <div class="container">
-    <div class="row row--4-4-4">
-      {% assign grouppages = site.html_pages | where: 'content-pages','true' | sort: 'nav-order' %}
-      {% for grouppage in grouppages %}
-      <div class="col">
-        <div class="bg-img bg-img--16-9 bg-img--lg-3-4" style="background-image: url({{site.img}}/content/{{grouppage.id}}/banner.jpg)">
-          <a href="{{site.baseurl}}{{grouppage.url}}" class="bg-img__link"></a>
-          <div class="bg-img__content">
-            <h2 class="title title--sm text--bold">{{grouppage.title}}</h2>
-          </div>
-          <div class="bg-img__overlay"></div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
 </div>
+
+<div class="container">
+  <div class="row row--4-4-4">
+    {% assign grouppages = site.html_pages | where: 'content-pages','true' | sort: 'nav-order' %}
+    {% for grouppage in grouppages %}
+    <div class="col">
+      <div class="bg-img bg-img--16-9 bg-img--lg-3-4" style="background-image: url({{site.img}}/content/{{grouppage.id}}/banner.jpg)">
+        <a href="{{site.baseurl}}{{grouppage.url}}" class="bg-img__link"></a>
+        <div class="bg-img__content">
+          <div class="boxpad--lg text--left text--white">
+
+            <h2 class="title title--md text--upper text--bold">{{grouppage.title}}</h2>
+            <hr class="hr--left">
+            <div class="title">
+            {% for detail in grouppage.banner.itinerary-details %}
+              <p class="text--medium">{{detail.text}}</p>
+            {% endfor %}
+            </div>
+            <div class="space--sm"></div>
+            <a href="{{grouppage.link}}" class="btn btn--sm btn--orange">View package</a>
+
+          </div>
+        </div>
+        <div class="bg-img__overlay"></div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="space--xxl"></div>
+</div>
+

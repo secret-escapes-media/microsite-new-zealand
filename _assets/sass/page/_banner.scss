@@ -67,4 +67,8 @@
   &--itinerary {
     & .banner__bg { opacity: 0.5; }
   }
+  .page--overview & {
+    color: $black;
+    text-shadow: 0 0 30px $white;
+  }
 }

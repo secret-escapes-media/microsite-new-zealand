@@ -32,13 +32,10 @@
 
   // custom content headline
   font-family: $font-title-01;
-  font-size: $s2; // default size
-  &--lg     { font-size: $s4; }
-  &--sm     { font-size: $s0; }
+  font-size: $s3; // default size
+  font-weight: 600;
   @include bp($lg){
-    font-size: $s3; // default size
-    &--lg     { font-size: $s5; }
-    &--sm     { font-size: $s1; }
+    font-size: $s4; // default size
   }
 
 }

@@ -1,49 +1,47 @@
-- title: Spectacular Oslo & Bergen break with optional fjord tour
-  id: spectacular-oslo-bergen-break-with-optional-fjord-tour
-  location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-  description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
-  price: 459
-  price-description: per person for 4 nights
-  saved: 37
-  expires: 2020/04/14
-  link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
 
-- title: Farris Bad
-  id: farris-bad
-  location: Larvik, Norway
-  description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
-  price: 214
+- title: New Zealand Sale 1
+  id: 5-all-inclusive-crete-beach-holiday-with-a-sea-view-room
+  location: Aldemar Knossos Royal Beach Resort, Greece
+  description: Enjoy a blissful Greek island holiday at a stylish five-star resort in Crete
+  price: 529
+  price-description: per person for 5 nights
+  saved: 49
+  expires: 2019/06/04
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/46753/c3445cc3_fad4_455f_aa2d_891da8e6fc2d.jpg
+  link: https://www.secretescapes.com/5-star-all-inclusive-crete-beach-holiday-with-a-sea-view-room-aldemar-knossos-royal-beach-resort-greece/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=February2019
+
+
+- title: New Zealand Sale 2
+  id: nikki-beach
+  location: Santorini, Greece
+  description: Laze at a brand-new Nikki Beach property in sun-soaked Santorini
+  price: 176
   price-description: per room per night
+  saved: 35
+  expires: 2019/06/04
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94860/36732fe8_98de_4761_bb74_28aef73251df.jpg
+  link: https://www.secretescapes.com/nikki-beach-santorini-greece/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=February2019
+
+
+- title: New Zealand Sale 3
+  id: amathus-elite-suites
+  location: Rhodes, Greek Islands
+  description: Bliss out with a five-star suite stay in Rhodes and a private pool
+  price: 219
+  price-description: per suite per night
+  saved: 35
+  expires: 2019/06/04
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/61493/6e57ac41_6e45_43e8_9d2f_04daf313df7b.jpg
+  link: https://www.secretescapes.com/amathus-elite-suites-rhodes-greece/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=February2019
+
+
+- title: New Zealand Sale 4
+  id: all-inclusive-crete-getaway-to-a-modern-coastal-resort
+  location: Blue Resort Rethymno, Greece
+  description: Admire panoramic ocean views on an all-inclusive Crete holiday
+  price: 379
+  price-description: per person for 7 nights
   saved: 33
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
-
-- title: First Hotel Marin
-  id: first-hotel-marin
-  location: Bergen, Norway
-  description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
-  price: 48
-  price-description: per room per night
-  saved: 43
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
-
-- title: Magic Hotel
-  id: magic-hotel
-  location: Bergen, Norway
-  description: A brand-new hip hotel in the centre of Bergen, designed by a top New York designer
-  price: 73
-  price-description: per room per night
-  saved: 55
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/magic-hotel-bergen-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=14_Norway_201704
-
-- title: Sola Strand Hotel
-  id: sola-strand-hotel
-  location: Sola, Norway
-  description: Discover one of the world's sixth best beaches on Norway's gorgeous coast, with breakfast and more
-  price: 79
-  price-description: per room per night
-  saved: 47
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/sola-strand-hotel-sola-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=15_Norway_201704
+  expires: 2019/06/04
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94932/98f601fa_7762_47e3_a9be_ff52b0fbde94.jpg
+  link: https://www.secretescapes.com/crete-all-inclusive-holiday-blue-resort-rethymno/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=February2019

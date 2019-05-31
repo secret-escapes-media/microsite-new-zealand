@@ -2,6 +2,9 @@
 layout: default
 ---
 
+
+
+<!-- INTRO -->
 <div class="page-intro">
   <div class="container container--xxl text--center">
     {{page.intro}}
@@ -11,6 +14,9 @@ layout: default
   </div>
 </div>
 
+
+
+<!-- ITINERARY SECTIONS -->
 <div class="bg--grey-lightest">
 
   {% assign stops = site.data.stops %}
@@ -20,26 +26,30 @@ layout: default
   <div class="stop">
     <div class="container">
 
+      <!-- STOP DETAILS --
+        *- Gets data from yml and loops to display -->
       {% assign stop-data = stops | where: 'id', stop.id %}
       {% for stop in stop-data %}
       <h2 class="title title--xxxl text--bolder">{{stop.title}}</h2>
       <div class="space--lg"></div>
-      <div class="row row--6-6">
+      <div class="row row--xxl-6-6">
         <div class="col">
-          <div class="stop__title">
-            <div class="stop__title-content">
+          <div class="bg-img bg-img--4-3 bg-img--xxl-1-1 bg-img--xxxl-3-2" style="background-image: url({{site.img}}/content/stops/{{stop.id}}.jpg)"></div>
+        </div>
+        <div class="col">
+          <div class="stop__content">
+            <div class="stop__content-inner">
               <p class="text--xl">{{stop.content}}</p>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="bg-img bg-img--3-2" style="background-image: url({{site.img}}/content/stops/{{stop.id}}.jpg)"></div>
-        </div>
       </div>
       {% endfor %}
 
+
+      <!-- STAY AND DO -->
       <div class="space--lg"></div>
-      <div class="row row--6-6">
+      <div class="row row--xxl-6-6">
         <!-- Stay -->
         <div class="col">
           <div class="stop__feature">
@@ -52,7 +62,8 @@ layout: default
               <div class="col">
                 <div class="bg--white boxpad--lg">
                   <h4 class="title title--xxs text--bold">{{hotel.name}}</h4>
-                  <span class="title text--sm text--upper text--bold text--wide-kern">{{hotel.stay}}</span>
+                  <div class="space--xxs"></div>
+                  <h6 class="title text--sm text--upper text--bold text--wide-kern text--lh-xs">{{hotel.stay}}</h6>
                 </div>
               </div>
             </div>
@@ -72,7 +83,8 @@ layout: default
               <div class="col">
                 <div class="bg--white boxpad--lg">
                   <h4 class="title title--xxs text--bold">{{activity.title}}</h4>
-                  <span class="title text--sm text--upper text--bold text--wide-kern">{{activity.location}}</span>
+                  <div class="space--xxs"></div>
+                  <h6 class="title text--sm text--upper text--bold text--wide-kern text--lh-xs">{{activity.location}}</h6>
                 </div>
               </div>
             </div>
@@ -90,6 +102,8 @@ layout: default
 
 
 
+<!-- SALE DETAILS -->
+<div id="section-sale"></div>
 <div class="bg--grey-darkest vpad--lg text--white">
   {% assign sale = page.sale %}
   <div class="container">
@@ -123,10 +137,16 @@ layout: default
           </ul>
           <p>From <span class="text--xxl">£{{sale.price}}</span> {{sale.price-description}}</p>
           <div class="space--sm"></div>
-          <a href="#" class="btn btn--orange">View sale</a>
+          <a href="{{sale.link}}" class="btn btn--orange">View sale</a>
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<div class="cta-banner js-sticky-cta">
+  <div class="vpad--xxs text--center">
+    <a href="#section-sale" class="btn btn--orange">View sale details</a>
   </div>
 </div>
 

@@ -25,7 +25,6 @@
     justify-content: center;
     color: $white;
     text-align: center;
-    @include page-padding;
   }
   &__overlay {
     position: absolute;

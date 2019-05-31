@@ -10,6 +10,8 @@
     font-weight: 400;
     text-align: center;
     background-color: $grey-darkest;
+    position: relative; 
+    z-index: $z-overlay;
   }
 
   // spacing for multiple logos in site footer

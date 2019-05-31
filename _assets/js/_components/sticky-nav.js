@@ -14,8 +14,10 @@ function stickyNav(){
 
   if( scrollTop > distance ){
     nav.addClass(stickyNavModifier);
+    $('.js-sticky-cta').addClass(stickyNavModifier);
   }else{
     nav.removeClass(stickyNavModifier);
+    $('.js-sticky-cta').removeClass(stickyNavModifier);
   }
 }
 

@@ -4,13 +4,12 @@
 	 width="44px" height="44px" viewBox="0 0 44 44" style="enable-background:new 0 0 44 44;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
-	.st1{fill:#FFFFFF;}
 </style>
 <title>nav-arrow</title>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="-2428.7874" x2="44" y2="-2428.7874" gradientTransform="matrix(1 0 0 -1 0 -2406.7874)">
-	<stop  offset="0" style="stop-color:#1A1A1A;stop-opacity:0"/>
-	<stop  offset="1" style="stop-color:#1A1A1A"/>
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
 </linearGradient>
 <rect class="st0" width="44" height="44"/>
-<polygon class="st1" points="30,16.5 35.5,22 30,27.5 "/>
+<polygon points="30,16.5 35.5,22 30,27.5 "/>
 </svg>
