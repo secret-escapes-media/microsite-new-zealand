@@ -38,7 +38,10 @@
   position: relative;
   &:nth-child(even){ background-color: $grey-lighter; }
   & .container { position: relative; z-index: 1; }
-
+  &__title {
+    color: $black;
+    text-shadow: 0 0 30px $white;
+  }
   &__content {
     background-color: $white;
     position: relative;

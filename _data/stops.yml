@@ -1,9 +1,20 @@
 
 
 
+
+- id: bay-of-islands
+  title: Bay of Islands
+  content: 140 subtropical islands await. This is one of New Zealand’s favourite summer destinations, with a vast array of beaches to sink into and pretty coastal towns to explore. Diving and snorkelling, magnificent forest and coastal trails, and important Maori heritage converge in the bay to craft an unmissable getaway in the northern tip of the country.
+
+
 - id: auckland
   title: Auckland
   content: New Zealand's sprawling super-city, Auckland is a true melting pot of cultures. A large Polynesian and Asian population sets the tone for one fantastic dining scene, with delicious fusion restaurants to discover and buzzing foodie markets to explore. The harbourside offers sunset cocktails after boutique shopping in Britomart, with more designer stores in Ponsonby and Parnell ready to empty your coffers. Don’t miss the opportunity to escape the city by ferry, destination Waiheke Island. The journey is short but the experience a total contrast. Beautiful beaches mark an island filled with vineyards and restaurants, making for an unmissable day trip.
+
+
+- id: taupo
+  title: Lake Taupo
+  content: New Zealand’s largest lake, sitting in the caldera of an ancient – and rather violent – volcano, is an unequalled beauty spot, with a vast range of activities and spectacles to indulge in. Thermal waters cascade over terraces at Wairakei, forming thermal pools to sink into. The Huka Falls make a dramatic display, forcing the river through a narrow chasm that falls ferociously at its end. Take a kayak to the lake for a truly serene adventure and head for the gargantuan Maori rock carvings that tower above the water line.
 
 
 - id: rotorua
@@ -23,12 +34,22 @@
 
 - id: wellington
   title: Wellington
-  content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.
+  content: A big city with a small footprint, Wellington packs a punch in its diverse offerings and vibrant atmosphere. Slung along a pretty crescent bay, this university city mixes a youthful, creative spirit with esteemed museums and galleries, fine-dining scene and harbourside charms. Independent roasteries and microbreweries attract loyal devotees, but to live like a real local, don’t miss the chance to explore Miramar and Lyall Bay. Just outside of the city centre, these areas offer famed local eateries, gorgeous beaches and one tempting laid-back lifestyle.
+
+
+- id: marlborough-sounds
+  title: Marlborough Sounds
+  content: A vast collection of hidden coves and island chains await discovery in Marlborough Sounds. The area is an ancient waterlogged valley, a delight for long hikes that afford wildlife encounters and glorious views across the jutting peaks and silky waters. Jump on a water taxi to best explore the network of coves and islands.
 
 
 - id: picton
   title: Picton
-  content:
+  content: This picturesque seaside town is your gateway to the Marlborough Sounds, a sunken valley of jutting hills and mountains that rise above the sea. Sea kayaking, fishing tours, mountain biking and more are great ways to unpick this unique landscape. After a day of adventure, Picton offers a host of restaurants and bars, in a truly charming setting.
+
+
+- id: kaikoura
+  title: Kaikoura
+  content: This pretty peninsula faces out to sea, backdropped by a vast chain of snow-capped mountains. Marine life is easily spottable, from seals to whales, as you follow trails along the beautiful coastline. This area is the definition of remote, for a truly back-to-nature experience.
 
 
 - id: christchurch
@@ -38,22 +59,27 @@
 
 - id: dunedin
   title: Dunedin
-  content:
+  content: Packed with old-world charm and irresistibly vibrant thanks to its student population, Dunedin is both charming and captivating. Surrounded by dramatic hills, spend your days exploring the rugged coastline for a rare glimpse at the resident penguin colony at the Otago Peninsula. Outdoor adventures abound, best followed by an evening checking out Dunedin’s buzzing bar scene and great eateries.
 
 
 - id: lake-tekapo
   title: Lake Tekapo
-  content:
+  content: Snow-capped mountain peaks sit on the horizon; stretching from shore to shore, a remarkably turquoise lake, brought about by rock flour ground by glaciers, strikes an inimitable colour. Lake Tekapo is a beautiful sight and around its fringes, incredible experiences await. Hot springs offer relaxation in gorgeous surroundings, helicopter tours add to your adventure, and at night? Gaze at the heavens; Lake Tekapo is a superb Dark Sky Reserve, offering a chance to glimpse the elusive Southern Lights.
 
 
 - id: omarama
   title: Omarama
-  content:
+  content: A sleepy stop off, Omarama is framed by a mountainous landscape perfect for long hikes. Sat in a basin, the lower ground is filled with lakes and pools, making for glorious views. This is a glider’s paradise, so if you’re feeling brave, don’t miss the chance to gently soar across this beautiful landscape.
 
 
 - id: te-anau
   title: Te Anau
-  content:
+  content: Te Anau is the perfect base for exploring the surrounding Fiordland National Park. Bordering the eponymous lake, glacier-carved wilds await discovery. Close to cherished beauty spot Milford Sound, head out on the trails and explore deep cliffs, crashing waterfalls and stunning waterways. Kayaking complements this unique landscape, and after a long hike, the town has a good selection of great restaurants and cosy watering holes.
+
+
+- id: lake-wanaka
+  title: Lake Wanaka
+  content: As postcard-perfect a setting as you could wish for, Wanaka is a ridiculously charming town, sandwiched between piercing mountains and the long expanse of its eponymous lake. It’s quickly become a serious contender to Queenstown, a lesser-known and therefore more peaceful getaway on the beguiling shores of the lake.
 
 
 - id: queenstown

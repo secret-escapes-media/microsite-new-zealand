@@ -101,6 +101,10 @@ $nav-color:          $white;
       padding-left: $s0;
       padding-right: $s0;
     }
+    &--book {
+      background-color: $orange; color: $white;
+      .no-touch &:hover { background-color: darken($orange,5); }
+    }
   }
 
   // js-sticky-nav style
