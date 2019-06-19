@@ -47,12 +47,12 @@ intro: >
     <div class="space--lg"></div>
     <div class="bg--white boxpad--md">
       <div class="row row--valign-center">
-        <div class="col col--2"><span class="title title--xxs text--bold">We recommend</span> </div>
+        <div class="col col--lg-6 col--xl-4 col--xxxl-2"><span class="title title--xxs text--bold">We recommend</span> </div>
         {% assign stops = grouppage.itinerary %}
         {% for stop in stops %}
         {% if forloop.index0 < 5 %}
-        <div class="col col--2">
-          <div class="bg-img bg-img--4-3 bg-img--shadow bg-img--rounded" style="background-image: url({{site.img}}/content/activity/{{stop.activity.id}}.jpg);">
+        <div class="col col--lg-6 col--xl-4 col--xxxl-2">
+          <div class="bg-img bg-img--21-9 bg-img--xxxl-4-3 bg-img--shadow bg-img--rounded" style="background-image: url({{site.img}}/content/activity/{{stop.activity.id}}.jpg);">
             <div class="bg-img__content bg-img__content--bottom">{{stop.activity.title}}</div>
           </div>
         </div>

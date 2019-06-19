@@ -5,8 +5,8 @@
   // custom content headline
   font-family: $font-title-01;
   line-height: 1.1;
-  &--xxxl   { font-size: $s8; }
-  &--xxl    { font-size: $s7; }
+  &--xxxl   { font-size: $s6; }
+  &--xxl    { font-size: $s6; }
   &--xl     { font-size: $s6; }
   &--lg     { font-size: $s5; }
   &--md     { font-size: $s4; }
@@ -76,11 +76,10 @@
 
   // custom banner headline
   font-family: $font-display;
-  font-size: $s5;
+  font-size: $s8;
   line-height: 1;
-  @include bp($md){ font-size: $s7; }
-  @include bp($lg){ font-size: $s8; }
-  @include bp($xl){ font-size: $s9; }
-  @include bp($xxl){ font-size: $s11; }
+  @include bp($md){ font-size: $s9; }
+  @include bp($lg){ font-size: $s10; }
+  @include bp($xl){ font-size: $s11; }
 
 }

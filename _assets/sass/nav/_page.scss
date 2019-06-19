@@ -2,7 +2,7 @@
 
 $page-nav-height:    56px;
 $page-nav-height-sm: 44px;
-$nav-width-bp:       640px;
+$nav-width-bp:       1200px;
 $nav-color:          $white;
 
 
@@ -85,21 +85,19 @@ $nav-color:          $white;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    padding-left: $s4;
-    padding-right: $s4;
+    padding-left: $s1;
+    padding-right: $s1;
     font-family: $font-core;
     font-weight: 600;
-    font-size: 12px;
-    letter-spacing: .1em;
-    text-transform: uppercase;
+    font-size: 13px;
     color: $grey-darker;
     transition: background-color $transition-time ease;
     white-space: nowrap;
     &.is-current      { background-color: rgba($nav-color,.66); }
     .no-touch &:hover { background-color: rgba($nav-color,1); }
     @include bp($nav-width-bp){
-      padding-left: $s0;
-      padding-right: $s0;
+      padding-left: $s-2;
+      padding-right: $s-2;
     }
     &--book {
       background-color: $orange; color: $white;
