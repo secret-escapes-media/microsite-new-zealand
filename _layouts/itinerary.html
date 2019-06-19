@@ -22,7 +22,7 @@ layout: default
   {% assign stops = site.data.stops %}
   {% for pagestop in page.itinerary %}
 
-  <div id="section-{{stop.id}}"></div>
+  <div id="section-{{pagestop.id}}"></div>
   <div class="stop">
     <div class="container">
 
@@ -31,8 +31,8 @@ layout: default
       {% assign stop-data = stops | where: 'id', pagestop.id %}
       {% for stop in stop-data %}
       <h2 class="stop__title title title--xxxl text--bolder">{{stop.title}}</h2>
-      <div class="space--lg"></div>
       {% unless pagestop.repeat %}
+      <div class="space--lg"></div>
       <div class="row row--xxl-6-6">
         <div class="col">
           <div class="bg-img bg-img--4-3 bg-img--xxl-1-1 bg-img--xxxl-3-2" style="background-image: url({{site.img}}/content/stops/{{stop.id}}.jpg)"></div>
@@ -40,7 +40,7 @@ layout: default
         <div class="col">
           <div class="stop__content">
             <div class="stop__content-inner">
-              <p class="text--xl">{{stop.content}}</p>
+              <p class="text--lg">{{stop.content}}</p>
             </div>
           </div>
         </div>
@@ -59,13 +59,13 @@ layout: default
             {% assign hotel = pagestop.hotel %}
             <div class="row row--6-6 row--no-gutters row--valign-center bg--white">
               <div class="col">
-                <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/hotels/{{hotel.id}}.jpg)"></div>
+                <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/hotel/{{hotel.id}}.jpg)"></div>
               </div>
               <div class="col">
                 <div class="bg--white boxpad--lg">
-                  <h4 class="title title--xxs text--bold">{{hotel.name}}</h4>
+                  <h4 class="title title--xxs text--bold">{{hotel.title}}</h4>
                   <div class="space--xxs"></div>
-                  <h6 class="title text--sm text--upper text--bold text--wide-kern text--lh-xs">{{hotel.stay}}</h6>
+                  <h6 class="title text--sm text--upper text--bold text--wide-kern text--lh-xs">{{hotel.subtitle}}</h6>
                 </div>
               </div>
             </div>
@@ -75,18 +75,18 @@ layout: default
         <!-- Do -->
         <div class="col">
           <div class="stop__feature">
-            <h4 class="stop__feature-title title title--xs text--upper text--bold">Don't miss</h4>
+            <h4 class="stop__feature-title title title--xs text--upper text--bold">We recommend</h4>
 
             {% assign activity = pagestop.activity %}
             <div class="row row--6-6 row--no-gutters row--valign-center bg--white">
               <div class="col">
-                <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/activities/{{activity.id}}.jpg)"></div>
+                <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/activity/{{activity.id}}.jpg)"></div>
               </div>
               <div class="col">
                 <div class="bg--white boxpad--lg">
                   <h4 class="title title--xxs text--bold">{{activity.title}}</h4>
                   <div class="space--xxs"></div>
-                  <h6 class="title text--sm text--upper text--bold text--wide-kern text--lh-xs">{{activity.location}}</h6>
+                  <h6 class="title text--sm text--upper text--bold text--wide-kern text--lh-xs">{{activity.subtitle}}</h6>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@ layout: default
 
 <!-- SALE DETAILS -->
 <div id="section-sale"></div>
-<div class="bg--grey-darkest vpad--lg text--white">
+<div class="bg--grey-darker vpad--lg text--white">
   {% assign sale = page.sale %}
   <div class="container">
 
@@ -114,35 +114,14 @@ layout: default
       <h3 class="title title--sm text--medium">View this sale</h3>
       <div class="space--lg"></div>
     </div>
-
-    <div class="row row--valign-center row--no-gutters bg--grey-darker">
-      <div class="col col--8">
-        <div class="row row--no-gutters">
-          <div class="col col--4">
-            <div class="bg-img bg-img--3-4" style="background-image: url({{site.img}}/content/{{page.id}}/sale/01.jpg)"></div>
-          </div>
-          <div class="col col--4">
-            <div class="bg-img bg-img--3-4" style="background-image: url({{site.img}}/content/{{page.id}}/sale/02.jpg)"></div>
-          </div>
-          <div class="col col--4">
-            <div class="bg-img bg-img--3-4" style="background-image: url({{site.img}}/content/{{page.id}}/sale/03.jpg)"></div>
-          </div>
-        </div>
-      </div>
-      <div class="col col--4">
-        <div class="boxpad--xl">
-          <h4 class="title--xxs text--bold">{{sale.title}}</h4>
-          <ul>
-            {% for item in sale.list %}
-              <li>{{item.item}}</li>
-            {% endfor %}
-          </ul>
-          <p>From <span class="text--xxl">£{{sale.price}}</span> {{sale.price-description}}</p>
-          <div class="space--sm"></div>
-          <a href="{{sale.link}}" class="btn btn--orange">View sale</a>
-        </div>
-      </div>
+    <div class="text--black">
+      {% assign pagesale = site.data.offers | where: 'id', page.sale %}
+      {% for offer in pagesale %}
+        {% include offer/offer.html %}
+      {% endfor %}
     </div>
+
+
   </div>
   <div class="space--xxl"></div>
 </div>

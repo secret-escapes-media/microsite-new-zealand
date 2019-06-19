@@ -2,5 +2,17 @@
 // need to put a friendly reminder where the g fonts snippet needs to go in the whole site
 // additional families need to included in includes > page > head
 
+@font-face {
+  font-family: 'PurePakati';
+  src: url('../fonts/PurePakatiWeb-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PurePakatiWeb-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PurePakatiWeb-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PurePakatiWeb-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PurePakatiWeb-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
 $font-core: 'Source Sans Pro', 'Helvetica Neue', sans-serif;
 $font-title-01: 'Work Sans', 'Helvetica Neue', sans-serif;
+$font-display: 'PurePakati', 'Work Sans', 'Helvetica Neue', sans-serif;

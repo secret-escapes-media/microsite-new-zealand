@@ -1,47 +1,61 @@
 
-- title: New Zealand Sale 1
-  id: 5-all-inclusive-crete-beach-holiday-with-a-sea-view-room
-  location: Aldemar Knossos Royal Beach Resort, Greece
-  description: Enjoy a blissful Greek island holiday at a stylish five-star resort in Crete
-  price: 529
-  price-description: per person for 5 nights
-  saved: 49
-  expires: 2019/06/04
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/46753/c3445cc3_fad4_455f_aa2d_891da8e6fc2d.jpg
-  link: https://www.secretescapes.com/5-star-all-inclusive-crete-beach-holiday-with-a-sea-view-room-aldemar-knossos-royal-beach-resort-greece/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=February2019
+- external: true
+  id: the-luxury-traveller
+  title: Best of New Zealand
+  location: Auckland to Christchurch
+  description: Experience urban Kiwi life in Auckland, witness the geothermal wonderland of Rotorua, visit Queenstown – New Zealand’s adventure capital – and much more.
+  price: 3995
+  price-description: Per person for 22 days
+  saved:
+  expires:
+  image: https://www.austravel.com/sites/default/files/styles/homepage_image_slider/public/DRUPAL-NZ/DRUPAL-NZ/AKL.4555.007.jpg
+  link: https://www.austravel.com/holidays/best-of-new-zealand
 
 
-- title: New Zealand Sale 2
-  id: nikki-beach
-  location: Santorini, Greece
-  description: Laze at a brand-new Nikki Beach property in sun-soaked Santorini
-  price: 176
-  price-description: per room per night
-  saved: 35
-  expires: 2019/06/04
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94860/36732fe8_98de_4761_bb74_28aef73251df.jpg
-  link: https://www.secretescapes.com/nikki-beach-santorini-greece/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=February2019
+- id: the-aotearoa-explorer
+  title: New Zealand self-drive trip with TranzAlpine train ride & fjord cruise
+  location: Christchurch, Franz Josef Glacier, Queenstown, Lake Tekapo & more
+  description: Cross New Zealand's North and South Islands by TranzAlpine train and car
+  price: 2699
+  price-description: Per person. Based on 2 people for 14 nights
+  saved: 23
+  expires: 2019/07/01
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/96106/35c0e89f_228d_4d20_a6d2_f658e3879318.jpg
+  link: https://www.secretescapes.com/new-zealand-self-drive-trip-with-tranzalpine-train-ride-and-fjord-tour-christchurch-franz-josef-glacier-queenstown-lake-tekapo-and-more/sale
 
 
-- title: New Zealand Sale 3
-  id: amathus-elite-suites
-  location: Rhodes, Greek Islands
-  description: Bliss out with a five-star suite stay in Rhodes and a private pool
-  price: 219
-  price-description: per suite per night
-  saved: 35
-  expires: 2019/06/04
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/61493/6e57ac41_6e45_43e8_9d2f_04daf313df7b.jpg
-  link: https://www.secretescapes.com/amathus-elite-suites-rhodes-greece/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=February2019
+- id: the-island-hopper
+  title: Incredible New Zealand guided natural wonders & city tour
+  location: Christchurch, Franz Josef Glacier, Queenstown, Wellington & more
+  description: Embark on an epic tour of New Zealand's cities and natural wonders
+  price: 3475
+  price-description: Per person. Based on 2 people for 16 nights
+  saved: 19
+  expires: 2019/07/01
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/96172/122cd920_965e_4a5d_9f22_0e1b3c0efbdb.jpg?auto=format,compress
+  link: https://www.secretescapes.com/incredible-new-zealand-guided-natural-wonders-and-city-tour-christchurch-franz-josef-glacier-queenstown-wellington-and-more/sale
 
 
-- title: New Zealand Sale 4
-  id: all-inclusive-crete-getaway-to-a-modern-coastal-resort
-  location: Blue Resort Rethymno, Greece
-  description: Admire panoramic ocean views on an all-inclusive Crete holiday
-  price: 379
-  price-description: per person for 7 nights
-  saved: 33
-  expires: 2019/06/04
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/94932/98f601fa_7762_47e3_a9be_ff52b0fbde94.jpg
-  link: https://www.secretescapes.com/crete-all-inclusive-holiday-blue-resort-rethymno/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=February2019
+- id: the-globetrotter
+  title: Sensational New Zealand self-drive tour & Bali beach stay
+  location: Wellington, Napier, Rotorua, Coromandel Peninsula, Auckland & Indonesia
+  description: Zigzag across New Zealand's North Island by car before beach time in Bali
+  price: 2499
+  price-description: Per person. Based on 2 people for 14 nights
+  saved: 26
+  expires: 2019/07/01
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/96133/e372c7f7_109b_4334_ad2b_ab9109eb840f.jpg?auto=format,compress
+  link: https://www.secretescapes.com/sensational-new-zealand-self-drive-tour-and-bali-beach-stay-wellington-napier-rotorua-coromandel-peninsula-auckland-and-indonesia/sale
+
+
+- title: New Zealand self-drive motorhome escape with South and North island hotel stays
+  location: Christchurch, self-drive motorhome & Auckland
+  description: Self-drive Christchurch to Auckland journey through unreal New Zealand vistas
+  price: 2149
+  price-description: Per person. Based on 2 people for 14 nights
+  saved: 23
+  expires: 2019/07/01
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/96124/6103ab46_daa7_41e4_80f0_9b8a41b99a3b.jpg?auto=format,compress
+  link: https://www.secretescapes.com/new-zealand-self-drive-motorhome-escape-christchurch-self-drive-motorhome-and-auckland/sale
+
+

@@ -7,7 +7,7 @@ title: Overview
 
 banner:
   title: Discover <br />New Zealand
-  title-sub: Escape to a Land of Adventures
+  title-sub: Your Most Epic Escape Yet
 
 intro: >
   <p class="text--xxl">We’ve put together four irresistible itineraries that showcase the best of this land of adventures.</p>
@@ -21,33 +21,56 @@ intro: >
   </div>
 </div>
 
-<div class="container container--xxl">
-  <div class="row row--6-6">
-    {% assign grouppages = site.html_pages | where: 'content-pages','true' | sort: 'nav-order' %}
-    {% for grouppage in grouppages %}
-    <div class="col">
-      <div class="bg-img bg-img--16-9 bg-img--lg-1-1" style="background-image: url({{site.img}}/content/{{grouppage.id}}/banner.jpg)">
-        <a href="{{site.baseurl}}{{grouppage.url}}" class="bg-img__link"></a>
-        <div class="bg-img__content">
-          <div class="boxpad--lg text--left text--white">
 
-            <h2 class="title title--md text--upper text--bold">{{grouppage.title}}</h2>
-            <hr class="hr--left">
-            <div class="title">
-            {% for detail in grouppage.banner.itinerary-details %}
-              <p class="text--medium">{{detail.text}}</p>
-            {% endfor %}
-            </div>
-            <div class="space--sm"></div>
-            <a href="{{grouppage.link}}" class="btn btn--sm btn--orange">View the itinerary</a>
+{% assign grouppages = site.html_pages | where: 'content-pages','true' | sort: 'nav-order' %}
+{% for grouppage in grouppages %}
+<div class="page-section" style="background-image: url({{site.img}}/content/{{grouppage.id}}/banner.jpg)">
+  <div class="page-section__overlay"></div>
+  <div class="page-section__content container">
+    <div class="bob {% cycle '', 'bob--swap' %}">
 
+      <div class="bob__img">
+        <div class="bg-img bg-img--16-9 bg-img--lg-4-3" style="background-image: url({{site.img}}/content/{{grouppage.id}}/thumb.jpg)">
+          <a href="{{site.baseurl}}{{grouppage.url}}" class="bg-img__link"></a>
+        </div>
+      </div>
+
+      <div class="bob__text">
+        <h2 class="title title--xl text--bold">{{grouppage.title}}</h2>
+        <p class="text--xl">{{grouppage.intro | strip_html}}</p>
+        <div class="space--sm"></div>
+        <a href="{{site.baseurl}}{{grouppage.url}}" class="btn btn--sm btn--orange">Take me there</a>
+      </div>
+
+    </div>
+
+    <div class="space--lg"></div>
+    <div class="bg--white boxpad--md">
+      <div class="row row--valign-center">
+        <div class="col col--2"><span class="title title--xxs text--bold">We recommend</span> </div>
+        {% assign stops = grouppage.itinerary %}
+        {% for stop in stops %}
+        {% if forloop.index0 < 5 %}
+        <div class="col col--2">
+          <div class="bg-img bg-img--4-3 bg-img--shadow bg-img--rounded" style="background-image: url({{site.img}}/content/activity/{{stop.activity.id}}.jpg);">
+            <div class="bg-img__content bg-img__content--bottom">{{stop.activity.title}}</div>
           </div>
         </div>
-        <div class="bg-img__overlay"></div>
+        {% endif %}
+        {% endfor %}
       </div>
     </div>
-    {% endfor %}
+
   </div>
-  <div class="space--xxl"></div>
+</div>
+{% endfor %}
+
+
+<div class="bg--grey-darkest vpad--xl">
+  <div class="container container--xxl text--center">
+    <div class="video bg-img bg-img--16-9">
+      <iframe class="video__iframe" frameborder="0" allowfullscreen="1" width="100%" height="100%" src="https://www.youtube.com/embed/Atf_Af1q_5w?enablejsapi=1&controls=1&rel=0&showinfo=0&modestbranding=1"></iframe>
+    </div>
+  </div>
 </div>
 

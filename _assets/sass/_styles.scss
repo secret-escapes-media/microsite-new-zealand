@@ -5,7 +5,7 @@
 .page-intro {
   position: relative;
   padding-top: $s8;
-  padding-bottom: $s11;
+  padding-bottom: $s10;
   &__nav {
     border-top: 1px solid rgba($grey-darkest,0.2);
     height: 58px;
@@ -32,12 +32,43 @@
 
 
 
+.page-section {
+  padding: $s10 0;
+  position: relative;
+  @include background-attributes;
+  &__content {
+    position: relative;
+    z-index: $z-content-upper;
+  }
+  &__overlay {
+    position: absolute;
+    z-index: 0;
+    top:0;bottom:0;left:0;right:0;
+    background-color: rgba($white,0.8);
+  }
+}
+
+
+
+.video {
+  position: relative;
+  &__iframe {
+    position: absolute;
+    top: 0; left: 0;
+    bottom: 0; right: 0;
+  }
+}
+
+
+
 .stop {
   padding-bottom: $s10;
   padding-top: $s10;
   position: relative;
   &:nth-child(even){ background-color: $grey-lighter; }
   & .container { position: relative; z-index: 1; }
+
+  // Destination content
   &__title {
     color: $black;
     text-shadow: 0 0 30px $white;
@@ -73,8 +104,8 @@
     }
   }
 
+  // Highlights - hotel & don't miss
   &__feature {
-    // background-color: $white;
     overflow: hidden;
     position: relative;
     &-title {
@@ -82,6 +113,7 @@
     }
   }
 
+  // Section background image
   &__bg {
     position: absolute;
     height: 100%; width: 100%;
@@ -96,6 +128,7 @@
       background-color: rgba($white,0.8);
     }
   }
+
 }
 
 
@@ -104,7 +137,7 @@
   position: fixed;
   bottom: -100px;
   left: 0; right: 0;
-  background-color: rgba($grey-darkest,0.8);
+  background-color: rgba($grey-darkest,0.9);
   z-index: $z-content-upper;
   @include transition;
   &.is-stuck {

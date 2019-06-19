@@ -68,6 +68,12 @@ function buildImages() {
   .pipe(gulp.dest('./_site/_assets/img/'));
 }
 
+// build for image files
+function buildFonts() {
+  return gulp.src('./_assets/fonts/**/*.*')
+  .pipe(gulp.dest('./_site/_assets/fonts/'));
+}
+
 // build for main js file
 function buildJsMain(cb) {
   return gulp.src([
@@ -203,6 +209,7 @@ var build = gulp.series(
     buildJekyll,
     buildSass,
     buildImages,
+    buildFonts,
     buildJsMain,
     buildJs
   )
